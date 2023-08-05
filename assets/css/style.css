@@ -113,3 +113,9 @@ body{
   align-items: center;
   justify-content: center;
 }
+
+.movie-image{
+  width: 10px;
+  height: 10px;
+  
+}
