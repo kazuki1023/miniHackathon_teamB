@@ -2,10 +2,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>映画紹介サイト</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>映画紹介</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <button id="showMovieButton">ガチャを引く</button>
+  <header class="header">
+    <button class="header-button">
+      <span class="header-buttonLine"></span>
+      <span class="header-buttonLine"></span>
+      <span class="header-buttonLine"></span>
+    </button>
+  </header>
+  <section>
+    
+    <figure class="figure-global">
+      <div class="card" data-text="IT “それ”が見えたら、終わり。">
+        <img src="./assets/img/img-it.webp" class="mainvisual-img-landscape" alt="nothing">
+      </div>
+      <div class="card" data-text="きっと、うまくいく">
+        <img src="./assets/img/img-3idiots.jpg" class="mainvisual-img-portrait" alt="nothing">
+      </div>
+      <div class="card" data-text="サマーウォーズ">
+        <img src="./assets/img/img-summerwars.jpg" class="mainvisual-img-portrait"  id="mainvisual-summerwars" alt="nothing">
+      </div>
+      <div class="card" data-text="ミッション:インポッシブル">
+        <img src="./assets/img/img-MIP.jpg" class="mainvisual-img-landscape" alt="nothing">
+      </div>
+      <div>
+        <button id="showMovieButton" class="mainvisual-botton">ガチャを引く</button>
+      </div>
+      <div class="card" data-text="バック・ツゥー・ザ・フューチャー">
+        <img src="./assets/img//img-BTF.png" class="mainvisual-img-landscape" alt="nothing">
+      </div>
+      <div class="card" data-text="コンフィデンスマンJP">
+        <img src="./assets/img/img-confidencemanJP.jpg" class="mainvisual-img-portrait" alt="nothing">
+      </div><div class="card" data-text="LA LA LAND">
+        <img src="./assets/img/img-LALALAND.jpg" class="mainvisual-img-portrait" alt="nothing">
+      </div>
+      <div class="card" data-text="クレヨンしんちゃん 嵐を呼ぶモーレツ！オトナ帝国の逆襲">
+        <img src="./assets/img/img-otonateikoku.jpg" class="mainvisual-img-landscape" alt="nothing">
+      </div>
+    </figure>
+  </section>
   <script src="main.js"></script>
 </body>
 </html>
