@@ -1,3 +1,9 @@
+// ハンバーガーメニュー
+document.querySelector('.header-button').addEventListener('click', function() {
+  this.classList.toggle('active');
+  document.querySelector('.menu').classList.toggle('active');
+});
+
 // main.js
 const movies = [
     {
