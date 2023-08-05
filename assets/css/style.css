@@ -1,0 +1,6 @@
+/* figures */
+.figure-one{
+  width: 25vw;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
